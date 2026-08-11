@@ -1,0 +1,32 @@
+# ============================================================
+# Smart Home AIoT 项目依赖
+# 安装: pip install -r requirements.txt
+# ============================================================
+
+# --- MQTT ---
+paho-mqtt>=2.0,<3.0
+
+# --- HTTP & API ---
+requests>=2.31,<3.0
+fastapi>=0.110,<1.0
+uvicorn[standard]>=0.27,<1.0
+
+# --- LLM / Agent ---
+langchain>=0.3,<1.0
+langchain-openai>=0.2,<1.0
+langchain-community>=0.3,<1.0
+
+# --- RAG ---
+chromadb>=0.5,<1.0
+pypdf>=4.0,<5.0
+sentence-transformers>=3.0,<4.0
+
+# --- 前端 ---
+streamlit>=1.35,<2.0
+
+# ============================================================
+# 第 1-2 周：只需要 paho-mqtt
+# 第 3-4 周：加上 langchain / langchain-openai / requests
+# 第 7-8 周：加上 fastapi / uvicorn / chromadb / pypdf / sentence-transformers
+# 第 9-11 周：加上 streamlit
+# ============================================================
