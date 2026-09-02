@@ -24,6 +24,8 @@ Thumbs.db
 # 环境变量（含 API Key）
 .env
 .env.local
+api.txt
+*.txt.key
 
 # Chroma 向量库本地存储
 chroma_db/
