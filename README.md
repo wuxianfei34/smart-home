@@ -5,12 +5,12 @@
 
 ## 项目进度
 
-- [ ] 第 1-2 周：Python 回炉 + MQTT 通信
+- [ ] 第 1-2 周：Python  + MQTT 通信
 - [ ] 第 3-4 周：LLM + LangChain 入门
 - [ ] 第 5-6 周：迷你 Demo（Agent → MQTT 控灯）
 - [ ] 第 7-8 周：RAG + FastAPI 接口
 - [ ] 第 9-11 周：多设备协同 + Streamlit 前端
-- [ ] 第 12-13 周：简历 + GitHub 整理
+- [ ] 第 12-13 周：  GitHub 整理
 
 ## 快速启动
 
