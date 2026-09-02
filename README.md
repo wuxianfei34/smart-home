@@ -10,7 +10,7 @@
 - [ ] 第 5-6 周：迷你 Demo（Agent → MQTT 控灯）
 - [ ] 第 7-8 周：RAG + FastAPI 接口
 - [ ] 第 9-11 周：多设备协同 + Streamlit 前端
-- [ ] 第 12-13 周：  GitHub 整理
+- [ ] 第 12-13 周：  GitHub 整理及学习
 
 ## 快速启动
 
