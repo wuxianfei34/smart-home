@@ -16,7 +16,7 @@ load_dotenv()
 
 from langchain_openai import ChatOpenAI
 from langchain_core.tools import tool
-from langgraph.prebuilt import create_react_agent
+from langgraph.prebuilt import create_agent
 
 
 # ================================================================
@@ -84,7 +84,7 @@ tools = [get_temperature, get_humidity]
 #   Thought（思考要干什么）→ Action（调哪个 Tool）→ Observation（Tool 返回结果）
 #   重复直到能回答用户问题
 
-agent = create_react_agent(llm, tools)
+agent = create_agent(llm, tools)
 
 
 # ================================================================
